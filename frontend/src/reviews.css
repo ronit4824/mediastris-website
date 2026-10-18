@@ -1,0 +1,326 @@
+/* Mediastris Healthcare LLP — Reviews System */
+
+.reviews-section {
+  --review-blue: var(--brand-blue-light);
+  --review-orange: var(--brand-orange);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  padding: 95px 0 105px;
+  border-top: 1px solid var(--border);
+}
+
+.reviews-inner {
+  width: min(1200px, calc(100% - 96px));
+  margin: 0 auto;
+}
+
+.reviews-heading-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 48px;
+  margin-bottom: 32px;
+}
+
+.reviews-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 11px;
+  letter-spacing: 0.19em;
+  font-weight: 700;
+  color: var(--review-orange);
+  text-transform: uppercase;
+  margin: 0 0 22px;
+}
+
+.reviews-eyebrow > span {
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: var(--review-orange);
+}
+
+.reviews-section h2 {
+  font-size: clamp(36px, 4.5vw, 60px);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: var(--text-primary);
+  font-weight: 600;
+  margin: 0;
+}
+
+.reviews-heading-dot {
+  color: var(--review-orange);
+}
+
+.reviews-intro {
+  max-width: 350px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0 0 4px;
+}
+
+.reviews-demo-notice {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  color: var(--text-secondary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--brand-blue);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  margin: 0 0 30px;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.reviews-demo-notice > span {
+  color: var(--review-blue);
+  font-weight: 700;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.review-card {
+  min-width: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 32px;
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform var(--transition-fast),
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: anywhere;
+}
+
+.review-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--brand-blue);
+  box-shadow: var(--shadow-md);
+}
+
+.review-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.review-stars {
+  display: flex;
+  gap: 5px;
+  color: var(--review-orange);
+}
+
+.review-stars svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.3;
+}
+
+.review-stars .filled {
+  fill: currentColor;
+}
+
+.review-quote {
+  width: 31px;
+  height: 25px;
+  color: var(--brand-blue-light);
+  opacity: 0.85;
+}
+
+.review-preview-label {
+  align-self: flex-start;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: var(--brand-orange);
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+
+.review-card blockquote {
+  padding: 0;
+  margin: 14px 0 28px;
+  border: 0;
+  flex: 1;
+}
+
+.review-card blockquote p {
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.review-person {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+}
+
+.review-avatar {
+  display: grid;
+  place-items: center;
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  color: var(--brand-blue-light);
+  font-size: 15px;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.review-card:nth-child(2n) .review-avatar {
+  background: var(--surface-elevated);
+  color: var(--brand-orange);
+}
+
+.review-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review-person h3 {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 2px;
+}
+
+.review-person time {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.review-original {
+  margin-left: auto;
+  color: var(--review-blue);
+  font-size: 22px;
+}
+
+.reviews-section a {
+  color: var(--brand-blue-light);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.reviews-section a:focus-visible {
+  outline: 2px solid var(--review-orange);
+  outline-offset: 5px;
+}
+
+.reviews-status {
+  padding: 32px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.reviews-attribution {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  margin-top: 28px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.reviews-attribution > span:first-child {
+  white-space: nowrap;
+  letter-spacing: normal;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+@media (max-width: 900px) {
+  .reviews-inner {
+    width: calc(100% - 48px);
+  }
+  .reviews-heading-row {
+    gap: 28px;
+  }
+  .reviews-intro {
+    max-width: 260px;
+  }
+  .review-card {
+    padding: 24px;
+  }
+  .reviews-section {
+    padding: 72px 0;
+  }
+}
+
+@media (max-width: 649px) {
+  .reviews-inner {
+    width: calc(100% - 36px);
+  }
+  .reviews-heading-row {
+    display: block;
+  }
+  .reviews-intro {
+    max-width: 100%;
+    margin-top: 22px;
+  }
+  .reviews-heading-break {
+    display: none;
+  }
+  .reviews-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+  .review-card {
+    padding: 24px;
+  }
+  .reviews-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+  }
+  .reviews-demo-notice {
+    padding: 14px;
+    font-size: 12px;
+  }
+  .reviews-section {
+    padding: 60px 0;
+  }
+  .review-card blockquote p {
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .review-card {
+    transition: none;
+  }
+  .review-card:hover {
+    transform: none;
+  }
+}

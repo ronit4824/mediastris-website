@@ -1,0 +1,306 @@
+[
+  {
+    "id": "compliance",
+    "slug": "statutory-regulatory-compliance",
+    "title": "Statutory & Regulatory Compliance",
+    "icon": "shield",
+    "image": {
+      "src": "/images/services/planning.webp",
+      "alt": "Illustrative stock photograph of professionals reviewing documents",
+      "position": "center 45%"
+    },
+    "shortDescription": "Bring structure to facility documentation, internal responsibilities and regulatory review planning.",
+    "overview": "For a new facility, an expansion or an established hospital, documentation can sit across several departments. A planning review can bring existing registers, correspondence and internal procedures into one working picture, with each item linked to an owner and a next step.",
+    "details": "Start by defining the facility, location and activities under discussion. Separate records already available from items awaiting clarification, and distinguish routine internal follow-up from questions for qualified legal or regulatory advisers. The proposed focus is administrative preparation; applicable obligations must be confirmed for the specific organization.",
+    "coverage": [
+      {
+        "title": "Document inventory",
+        "description": "Map available records, document versions and storage locations so the team can identify gaps without treating an unverified list as a compliance checklist."
+      },
+      {
+        "title": "Responsibility mapping",
+        "description": "Identify who maintains each record, who reviews it and which decisions require management or specialist input."
+      },
+      {
+        "title": "Review planning",
+        "description": "Discuss internal review dates, reminders and an issue log for unresolved questions, using dates verified by the responsible team."
+      },
+      {
+        "title": "Specialist coordination",
+        "description": "Prepare a focused set of questions and supporting context for appropriately qualified advisers and the relevant authorities."
+      }
+    ],
+    "discussion": "Planning a documentation review?",
+    "assistance": "A proposed engagement would begin with a conversation about your facility and current documentation process. A working brief could then group the records to review, assign discussion owners and identify questions that need external advice. Mediastris would need to agree the scope, responsible personnel and review boundaries with you before any work begins. This draft describes a planning approach, not a legal opinion or confirmation of compliance.",
+    "draft": true,
+    "introduction": "Build a clearer picture of the records your facility holds, the people responsible for them and the questions that need specialist review.",
+    "contactPrompt": "Tell us your facility type, location and the administrative issue you want to clarify.",
+    "contactLabel": "Discuss compliance planning"
+  },
+  {
+    "id": "insurance-onboarding",
+    "slug": "insurance-tpa-onboarding",
+    "title": "Insurance & TPA Onboarding",
+    "icon": "network",
+    "image": {
+      "src": "/images/services/planning.webp",
+      "alt": "Illustrative stock photograph of a business discussion and document review",
+      "position": "center 55%"
+    },
+    "shortDescription": "Prepare a clearer onboarding brief for insurer and third-party administrator discussions.",
+    "overview": "Onboarding preparation starts with a clear account of the hospital and the relationship it wants to explore. Facility profiles, existing correspondence and requests for further information can be reviewed together to understand the current stage and decide which administrative tasks need attention.",
+    "details": "A useful working plan separates new enquiries from applications already under review. For each organization, record the contact point, documents requested, outstanding queries and the internal person responsible for responding. Criteria, commercial terms and decisions need confirmation directly with the insurer or TPA.",
+    "coverage": [
+      {
+        "title": "Facility profile preparation",
+        "description": "Discuss how to organize organizational information, contact details and existing supporting materials into a consistent profile."
+      },
+      {
+        "title": "Application document tracking",
+        "description": "Create a discussion list of requested materials, available versions and questions to clarify with the insurer or TPA."
+      },
+      {
+        "title": "Query and correspondence review",
+        "description": "Group outstanding requests and previous communications so internal teams can plan a coordinated response."
+      },
+      {
+        "title": "Onboarding handover planning",
+        "description": "Identify administrative owners and the information that billing, front-office and management teams may need to review."
+      }
+    ],
+    "discussion": "Preparing an insurer or TPA application?",
+    "assistance": "The proposed starting point is a review of your onboarding stage and the information you already hold. An agreed administrative scope could focus on organizing application inputs, mapping outstanding questions and preparing a follow-up plan for your team. Mediastris would confirm the activities it can undertake before engagement; acceptance, network participation and timelines remain subject to the insurer or TPA.",
+    "draft": true,
+    "introduction": "Organize the information, application questions and internal handovers behind an insurer or TPA onboarding enquiry.",
+    "contactPrompt": "Share whether this is a new application or an existing enquiry, and describe the coordination help you are considering.",
+    "contactLabel": "Discuss onboarding preparation"
+  },
+  {
+    "id": "infrastructure",
+    "slug": "hospital-infrastructure",
+    "title": "Hospital Infrastructure Solutions",
+    "icon": "building",
+    "image": {
+      "src": "/images/services/hospital.webp",
+      "alt": "Illustrative stock photograph of a hospital corridor, not a Mediastris facility",
+      "position": "center 50%"
+    },
+    "shortDescription": "Define facility priorities around space, workflows and operational planning before a project moves forward.",
+    "overview": "A new hospital space, a department expansion or a change to an existing facility begins with questions about use. Understanding patient movement, staff tasks, support functions and existing constraints can help shape a project brief for the people responsible for design and delivery.",
+    "details": "The planning discussion should describe the current facility, the intended change and the departments affected. Capture assumptions about space, equipment interfaces, project phases and operational continuity as questions for validation. Technical design, engineering and construction responsibilities need to be assigned to appropriately qualified specialists.",
+    "coverage": [
+      {
+        "title": "Project brief and priorities",
+        "description": "Describe the intended use, departments involved and decisions that must be made before a scope can be agreed."
+      },
+      {
+        "title": "Space and workflow review",
+        "description": "Explore how people, supplies and information move through the facility and where teams see practical constraints."
+      },
+      {
+        "title": "Operational interfaces",
+        "description": "Identify connections between clinical areas, support services, equipment planning and day-to-day facility operations."
+      },
+      {
+        "title": "Stakeholder and phase planning",
+        "description": "Map the people who need to contribute and discuss how proposed changes might be reviewed in manageable stages."
+      }
+    ],
+    "discussion": "Considering a new facility or expansion?",
+    "assistance": "A proposed planning engagement could translate departmental input into a structured requirements brief and a list of open decisions. That brief could support conversations with your appointed architects, engineers and other technical advisers. Mediastris would first confirm its coordination role, any agreed outputs and the boundaries between planning input and specialist delivery.",
+    "draft": true,
+    "introduction": "Turn an infrastructure idea into a more focused conversation about how a healthcare facility needs to function.",
+    "contactPrompt": "Describe the project stage, facility location and departments affected by the proposed change.",
+    "contactLabel": "Discuss your facility project"
+  },
+  {
+    "id": "healthcare-branding",
+    "slug": "healthcare-branding",
+    "title": "Healthcare Branding Strategies",
+    "icon": "compass",
+    "image": {
+      "src": "/images/services/strategy.webp",
+      "alt": "Illustrative stock photograph of a workspace used for reviewing business communications",
+      "position": "center 55%"
+    },
+    "shortDescription": "Clarify your healthcare organization?s identity, positioning and messages across key touchpoints.",
+    "overview": "Healthcare branding begins with an accurate account of the organization. Before developing messages or visual directions, it helps to understand the audiences, existing materials and facts that can be supported. This creates a useful basis for discussing a coherent identity across print, signage and everyday communication.",
+    "details": "A brand review can distinguish foundational decisions, such as positioning and tone, from individual materials that need updating. Statements about facilities, practitioners, services or credentials should pass through the organization?s own review process before publication. The proposed work is about planning clear communication, with deliverables to be agreed.",
+    "coverage": [
+      {
+        "title": "Audience and positioning",
+        "description": "Define who needs to understand the organization and which verified facts should shape its public identity."
+      },
+      {
+        "title": "Identity and tone",
+        "description": "Review how names, visual elements and writing style could work together across existing materials."
+      },
+      {
+        "title": "Communication touchpoints",
+        "description": "Prioritize materials such as brochures, presentations, signage and patient-facing information for a consistent brand discussion."
+      },
+      {
+        "title": "Brand review and approvals",
+        "description": "Set out who confirms factual statements, approves creative directions and maintains agreed brand references."
+      }
+    ],
+    "discussion": "Refreshing how your organization is presented?",
+    "assistance": "A proposed branding brief could bring together your audience priorities, existing identity materials and examples of messages that need greater clarity. From there, the conversation could define a positioning direction, communication priorities and the materials to include in an agreed scope. Mediastris would confirm the creative activities and review process available before work is commissioned.",
+    "draft": true,
+    "introduction": "Give your organization a consistent way to explain who it serves, what it offers and how people can engage with it.",
+    "contactPrompt": "Tell us what is changing, who you want to reach and which brand materials need attention.",
+    "contactLabel": "Discuss your brand direction"
+  },
+  {
+    "id": "insurance-recovery",
+    "slug": "insurance-recovery",
+    "title": "Insurance Recovery Management",
+    "icon": "ledger",
+    "image": {
+      "src": "/images/services/planning.webp",
+      "alt": "Illustrative stock photograph of financial documents being reviewed",
+      "position": "center 65%"
+    },
+    "shortDescription": "Create a clearer administrative view of outstanding insurance receivables and follow-up priorities.",
+    "overview": "Insurance receivables can become difficult to review when claim references, queries and follow-up records are held separately. A structured administrative review can distinguish items awaiting information from those awaiting a response, helping a hospital discuss its workload with a shared view of the facts.",
+    "details": "Initial planning can use aggregate information: the volume of outstanding items, broad age bands and common query categories. Any later review of claim-level records would require an agreed scope, authorization and an appropriate data-handling process. Settlement decisions and payment depend on the relevant parties and cannot be promised.",
+    "coverage": [
+      {
+        "title": "Receivables status mapping",
+        "description": "Discuss useful categories for outstanding items, including records awaiting internal action, external clarification or a recorded decision."
+      },
+      {
+        "title": "Document and query review",
+        "description": "Identify recurring information gaps and how teams record requests for clarification without sharing patient records through this website."
+      },
+      {
+        "title": "Follow-up coordination",
+        "description": "Clarify administrative ownership, communication history and the next action to discuss with the responsible organization."
+      },
+      {
+        "title": "Management review priorities",
+        "description": "Consider an aggregate reporting format for open items, age bands and unresolved issues so review meetings have a consistent reference."
+      }
+    ],
+    "discussion": "Need a clearer picture of insurance follow-up?",
+    "assistance": "A proposed engagement would first establish the administrative problem and review the organization?s existing follow-up method. A defined scope could then address status organization, query tracking and internal coordination. Mediastris would need to confirm its role, access permissions and data-handling arrangements before reviewing records. No recovery amount, payment date or settlement outcome is implied.",
+    "draft": true,
+    "introduction": "Start with the status of outstanding items, the information behind them and a clear owner for the next administrative action.",
+    "contactPrompt": "Describe your administrative bottleneck using broad categories or aggregate figures, without claim documents or patient details.",
+    "contactLabel": "Discuss receivables coordination"
+  },
+  {
+    "id": "accreditation",
+    "slug": "nabh-accreditation",
+    "title": "NABH Accreditation Guidance",
+    "icon": "checklist",
+    "image": {
+      "src": "/images/services/hospital.webp",
+      "alt": "Illustrative stock photograph of a healthcare environment, not an accredited Mediastris facility",
+      "position": "center 40%"
+    },
+    "shortDescription": "Structure accreditation preparation around documentation, team ownership and internal review priorities.",
+    "overview": "For an organization exploring NABH accreditation, a useful first step is to understand its current preparation stage. Existing policies, internal review practices and staff responsibilities can be discussed together to identify where further planning or qualified advice may be needed.",
+    "details": "Begin by clarifying the programme the organization intends to explore and the information it has already reviewed. Keep preparation questions, internal actions and evidence references in a shared working record. The applicable programme and current requirements must be checked with the accrediting body; this page does not set out assessment criteria or imply affiliation.",
+    "coverage": [
+      {
+        "title": "Preparation context",
+        "description": "Describe the organization?s objectives, current stage and questions about the programme it intends to explore."
+      },
+      {
+        "title": "Documentation organization",
+        "description": "Discuss how policies, working records and review notes are stored, maintained and linked to internal owners."
+      },
+      {
+        "title": "Team participation",
+        "description": "Identify the departments and staff roles that need to contribute to preparation discussions and internal follow-up."
+      },
+      {
+        "title": "Internal review planning",
+        "description": "Create a discussion framework for open questions, evidence references and actions that require specialist interpretation."
+      }
+    ],
+    "discussion": "Planning your accreditation preparation?",
+    "assistance": "A proposed preparation engagement could begin by organizing the organization?s questions and existing materials into a working brief. The agreed scope might address document organization, responsibility mapping and preparation meeting priorities, with specialist interpretation referred to qualified advisers. Mediastris would confirm its advisory role and personnel before engagement. Accreditation assessment and decisions rest with the relevant body; no outcome is guaranteed.",
+    "draft": true,
+    "introduction": "Frame an accreditation preparation plan that connects organizational goals with the people and records involved.",
+    "contactPrompt": "Tell us your facility type, preparation stage and the organizational questions you want to work through.",
+    "contactLabel": "Discuss preparation priorities"
+  },
+  {
+    "id": "transplant-approval",
+    "slug": "organ-transplant-approval",
+    "title": "Organ Transplant Approval Assistance",
+    "icon": "heart",
+    "image": {
+      "src": "/images/services/hospital.webp",
+      "alt": "Illustrative stock photograph of a hospital interior, not a Mediastris transplant facility",
+      "position": "center 60%"
+    },
+    "shortDescription": "Clarify hospital-level administrative questions around transplant programme permissions and coordination.",
+    "overview": "An organization considering transplant-related permissions needs to establish the exact hospital-level question it is addressing. The starting discussion should identify the proposed programme context, existing organizational records and the people responsible for obtaining authoritative advice.",
+    "details": "Keep facility-level planning separate from individual patient, donor or recipient cases. The relevant authority and qualified medical and legal advisers must establish the applicable process for the location and proposed activity. This provisional scope concerns administrative discussion only and does not describe clinical care, donor matching or a route to securing authorization.",
+    "coverage": [
+      {
+        "title": "Organizational context",
+        "description": "Define the hospital-level permission question and distinguish a proposed programme from an existing administrative enquiry."
+      },
+      {
+        "title": "Authority clarification",
+        "description": "Record questions about the responsible authority and jurisdiction for confirmation by qualified advisers."
+      },
+      {
+        "title": "Document responsibility mapping",
+        "description": "Identify internal record owners and how existing organizational materials could be organized for an authorized review."
+      },
+      {
+        "title": "Specialist coordination planning",
+        "description": "Prepare questions, decision points and meeting inputs for the hospital?s appointed medical, legal and technical specialists."
+      }
+    ],
+    "discussion": "Clarifying a hospital-level permission question?",
+    "assistance": "The proposed first step is a limited discussion of the organization?s administrative question, without personal medical records. A planning brief could identify open questions, internal owners and the specialist input needed before any further scope is considered. Mediastris must confirm that it can undertake the proposed role in the relevant location before engagement. No clinical service, transplant arrangement or approval outcome is represented.",
+    "draft": true,
+    "introduction": "Bring hospital management, documentation owners and qualified advisers into a clearly defined administrative planning conversation.",
+    "contactPrompt": "Share the facility location and the organizational issue you need to clarify; do not include donor, recipient or patient information.",
+    "contactLabel": "Discuss administrative planning"
+  },
+  {
+    "id": "digital-marketing",
+    "slug": "digital-marketing",
+    "title": "Digital Marketing & Branding Solutions",
+    "icon": "digital",
+    "image": {
+      "src": "/images/services/strategy.webp",
+      "alt": "Illustrative stock photograph of digital business information on a laptop",
+      "position": "center 50%"
+    },
+    "shortDescription": "Plan a consistent digital presence around useful content, clear priorities and a practical review process.",
+    "overview": "Digital planning starts by understanding what the organization needs to communicate and where its current online presence falls short. A review of website information, existing content and communication goals can help prioritize useful updates and a consistent brand voice.",
+    "details": "Separate essential organizational information from ongoing content ideas and channel-specific activity. Define who supplies source material, who checks healthcare-related statements and how publication decisions are made. Measurement should reflect agreed communication goals; proposed activity does not imply patient growth, search rankings or campaign performance.",
+    "coverage": [
+      {
+        "title": "Digital presence review",
+        "description": "Discuss the accuracy, clarity and consistency of current website information and other online touchpoints."
+      },
+      {
+        "title": "Content priorities",
+        "description": "Identify useful topics, source materials and a manageable publication rhythm for the audiences you intend to reach."
+      },
+      {
+        "title": "Channel and brand planning",
+        "description": "Consider which channels fit the communication purpose and how visual identity and tone could remain consistent."
+      },
+      {
+        "title": "Approvals and measurement",
+        "description": "Define review owners, publication checks and practical reporting questions tied to the agreed communication objectives."
+      }
+    ],
+    "discussion": "Planning the next step for your digital presence?",
+    "assistance": "A proposed digital brief could combine a review of existing touchpoints with audience priorities and a shortlist of content needs. The next discussion could establish channel choices, review responsibilities and a practical plan for evaluating activity. Mediastris would confirm supported activities, deliverables and any reporting arrangements before engagement; no audience, enquiry or revenue result is promised.",
+    "draft": true,
+    "introduction": "Connect your organization?s online communication with the information its audiences need and the facts your team can approve.",
+    "contactPrompt": "Share your organization?s website, intended audience and the communication priorities you want to explore.",
+    "contactLabel": "Discuss digital priorities"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "draftNotice": "Draft company and service copy for client review. Final scope and wording are subject to approval.",
+  "home": {
+    "heroDescription": "Explore healthcare consultancy topics across hospital administration, insurance coordination, infrastructure planning and professional communication.",
+    "introduction": "A healthcare organization brings together people, processes and responsibilities. This preview introduces Mediastris Healthcare LLP and eight proposed service areas, with a practical starting point for discussing your institution's needs.",
+    "capabilitiesIntroduction": "A useful first discussion starts with the requirement, the people responsible and the information available. These draft working principles describe a proposed approach for review.",
+    "capabilities": [
+      { "title": "Understand the requirement", "text": "Clarify the institution's priorities, existing arrangements and the questions that need specialist input." },
+      { "title": "Organize the next steps", "text": "Build a shared view of documents, responsibilities and dependencies before agreeing an engagement." },
+      { "title": "Keep responsibilities clear", "text": "Discuss decision ownership, communication and review points without assuming approvals or outcomes." }
+    ]
+  },
+  "footerDescription": "Mediastris Healthcare LLP, Borivali West, Mumbai. Explore healthcare service areas, read draft industry perspectives and start a conversation about your organization's needs."
+}

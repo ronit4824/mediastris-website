@@ -1,0 +1,54 @@
+debug: false
+trace: false
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+server:
+  address: ${BIND_ADDRESS:127.0.0.1}
+  forward-headers-strategy: native
+  port: ${PORT:8080}
+  error:
+    include-message: never
+    include-stacktrace: never
+    include-binding-errors: never
+  tomcat:
+    remoteip:
+      remote-ip-header: X-Forwarded-For
+      internal-proxies: '127\.0\.0\.1|::1|0:0:0:0:0:0:0:1'
+    max-http-form-post-size: 6MB
+  max-http-request-header-size: 16KB
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 6MB
+      file-size-threshold: 6MB
+  mail:
+    host: ${SMTP_HOST:}
+    port: ${SMTP_PORT:587}
+    username: ${SMTP_USERNAME:}
+    password: ${SMTP_PASSWORD:}
+    properties:
+      mail.smtp.auth: ${SMTP_AUTH:true}
+      mail.smtp.starttls.enable: ${SMTP_STARTTLS:true}
+      mail.smtp.starttls.required: ${SMTP_STARTTLS:true}
+      mail.smtp.ssl.enable: ${SMTP_SSL:false}
+      mail.smtp.connectiontimeout: 5000
+      mail.smtp.timeout: 5000
+      mail.smtp.writetimeout: 5000
+app:
+  reviews:
+    mode: ${REVIEWS_MODE:DEMO}
+    google-place-id: ${GOOGLE_PLACE_ID:}
+    google-api-key: ${GOOGLE_PLACES_API_KEY:}
+  cors-origins: ${CORS_ORIGINS:http://localhost:5173}
+  contact-from: ${CONTACT_FROM:}
+  contact-to: ${CONTACT_TO:}
+  careers-receiver-email: ${CAREERS_RECEIVER_EMAIL:}
+  sms:
+    enabled: ${SMS_ENABLED:false}
+    account-sid: ${SMS_ACCOUNT_SID:}
+    auth-token: ${SMS_AUTH_TOKEN:}
+    from: ${SMS_FROM:}
+    to: ${SMS_TO:}

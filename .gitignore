@@ -1,0 +1,37 @@
+.tools/
+node_modules/
+dist/
+target/
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+test-results/
+playwright-report/
+.idea/
+.vscode/
+
+# Credentials and machine-local configuration; keep only blank example files.
+.aws/
+.ssh/
+.npmrc
+.netrc
+credentials*.json
+service-account*.json
+*-service-account.json
+secrets.json
+secrets.yml
+secrets.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+application-local.*
+.DS_Store
+Thumbs.db
+
+# Local client requirements, commercial proposals and contractual documents.
+/docs/*.txt

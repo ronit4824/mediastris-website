@@ -1,0 +1,28 @@
+{
+  "name": "mediastris-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build && node scripts/metadata.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "playwright test",
+    "test:preview": "npm run build && node scripts/check-preview.mjs",
+    "test:pages": "node scripts/check-pages.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router-dom": "7.18.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "~5.9.3",
+    "vite": "8.3.4",
+    "@playwright/test": "latest",
+    "@axe-core/playwright": "latest"
+  }
+}

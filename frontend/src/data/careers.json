@@ -1,0 +1,215 @@
+{
+  "pages": [
+    {
+      "path": "/careers",
+      "title": "Build Your Future With Mediastris",
+      "description": "Explore career perspectives and future opportunities at Mediastris Healthcare LLP.",
+      "label": "Careers",
+      "icon": "building"
+    },
+    {
+      "path": "/careers/why-mediastris",
+      "title": "Your Work. Your Growth. Your Impact.",
+      "description": "Explore the professional contribution you would like to make in the healthcare sector.",
+      "label": "Why Mediastris",
+      "icon": "heart"
+    },
+    {
+      "path": "/careers/learning-growth",
+      "title": "Learning & Growth",
+      "description": "A perspective on developing skills, sharing knowledge and taking your next professional step.",
+      "label": "Learning & Growth",
+      "icon": "compass"
+    },
+    {
+      "path": "/careers/openings",
+      "title": "Job Openings",
+      "description": "Explore approved opportunities and the requirements for each role.",
+      "label": "Job Openings",
+      "icon": "ledger"
+    }
+  ],
+  "generalApplicationsEnabled": false,
+  "jobs": [],
+  "previewJobs": [
+    {
+      "id": "preview-accountant",
+      "title": "Accountant",
+      "approved": false,
+      "preview": true,
+      "location": "Mumbai · sample location",
+      "employmentType": "Full-time · sample",
+      "experience": "1–3 years · illustrative",
+      "responsibilities": [
+        "Maintain day-to-day accounting records and supporting documentation.",
+        "Help prepare reconciliations, invoices and internal financial summaries.",
+        "Coordinate information requests with the relevant business teams."
+      ],
+      "qualifications": [
+        "Relevant accounting or commerce qualification, subject to client confirmation.",
+        "Attention to detail and familiarity with spreadsheet tools.",
+        "Role requirements are illustrative and await client approval."
+      ]
+    },
+    {
+      "id": "preview-pr-executive",
+      "title": "PR Executive",
+      "approved": false,
+      "preview": true,
+      "location": "Mumbai · sample location",
+      "employmentType": "Full-time · sample",
+      "experience": "1–3 years · illustrative",
+      "responsibilities": [
+        "Help organize corporate communications and outreach material.",
+        "Coordinate drafts, communication calendars and approval requests.",
+        "Support professional relationships with relevant external contacts."
+      ],
+      "qualifications": [
+        "Interest or relevant experience in communications and public relations.",
+        "Clear writing, presentation and coordination skills.",
+        "Role requirements are illustrative and await client approval."
+      ]
+    },
+    {
+      "id": "preview-hr-executive",
+      "title": "HR Executive",
+      "approved": false,
+      "preview": true,
+      "location": "Mumbai · sample location",
+      "employmentType": "Full-time · sample",
+      "experience": "1–3 years · illustrative",
+      "responsibilities": [
+        "Coordinate recruitment-related scheduling and communication.",
+        "Maintain organized administrative records with appropriate confidentiality.",
+        "Support routine people-operations coordination."
+      ],
+      "qualifications": [
+        "Relevant HR or business administration background.",
+        "Strong organization, communication and discretion.",
+        "Role requirements are illustrative and await client approval."
+      ]
+    },
+    {
+      "id": "preview-operations-coordinator",
+      "title": "Operations Coordinator",
+      "approved": false,
+      "preview": true,
+      "location": "Mumbai · sample location",
+      "employmentType": "Full-time · sample",
+      "experience": "1–4 years · illustrative",
+      "responsibilities": [
+        "Help coordinate schedules, documentation and operational follow-ups.",
+        "Track agreed actions and communicate progress to relevant teams.",
+        "Identify practical ways to keep routine workflows organized."
+      ],
+      "qualifications": [
+        "An organized approach to administrative and coordination work.",
+        "Comfort with spreadsheets, task tracking and professional communication.",
+        "Role requirements are illustrative and await client approval."
+      ]
+    },
+    {
+      "id": "preview-business-development",
+      "title": "Business Development Executive",
+      "approved": false,
+      "preview": true,
+      "location": "Mumbai · sample location",
+      "employmentType": "Full-time · sample",
+      "experience": "1–4 years · illustrative",
+      "responsibilities": [
+        "Research potential organizational relationships and discussion topics.",
+        "Coordinate introductory conversations and follow-up information.",
+        "Help prepare clear, client-reviewed presentation material."
+      ],
+      "qualifications": [
+        "Interest or relevant experience in professional business development.",
+        "Research, presentation and relationship-coordination skills.",
+        "Role requirements are illustrative and await client approval."
+      ]
+    },
+    {
+      "id": "preview-digital-marketing",
+      "title": "Digital Marketing Executive",
+      "approved": false,
+      "preview": true,
+      "location": "Mumbai · sample location",
+      "employmentType": "Full-time · sample",
+      "experience": "1–3 years · illustrative",
+      "responsibilities": [
+        "Help plan digital content and coordinate review schedules.",
+        "Prepare draft communication material for approval.",
+        "Organize routine channel and content performance information."
+      ],
+      "qualifications": [
+        "Interest or relevant experience in digital communication.",
+        "Clear writing, attention to detail and familiarity with digital tools.",
+        "Role requirements are illustrative and await client approval."
+      ]
+    }
+  ],
+  "introduction": "Explore a career connected to the evolving healthcare sector. Mediastris welcomes conversations with people who value thoughtful problem-solving, collaboration, and making a meaningful professional contribution.",
+  "heroImage": {
+    "src": "/images/services/planning.webp",
+    "alt": "Illustrative stock photograph of a professional discussion, not Mediastris employees",
+    "position": "center"
+  },
+  "growthImage": {
+    "src": "/images/collaboration.webp",
+    "alt": "Illustrative stock photograph of a workspace, not the Mediastris office",
+    "position": "center"
+  },
+  "why": [
+    {
+      "title": "A connection to healthcare",
+      "text": "Consider the professional contribution you would like to make in a sector that touches people's lives.",
+      "icon": "heart"
+    },
+    {
+      "title": "Collaboration & communication",
+      "text": "Clear communication and thoughtful collaboration are valuable starting points for discussing how people work together.",
+      "icon": "network"
+    },
+    {
+      "title": "Professional responsibility",
+      "text": "Reflect on the care, accountability and sound judgment you bring to your work.",
+      "icon": "shield"
+    },
+    {
+      "title": "Thoughtful problem-solving",
+      "text": "Explore challenges with curiosity and an interest in making processes clearer and more useful.",
+      "icon": "compass"
+    },
+    {
+      "title": "A meaningful contribution",
+      "text": "Discuss how your experience and interests could connect with future healthcare-focused project requirements.",
+      "icon": "building"
+    }
+  ],
+  "growth": [
+    {
+      "title": "Continuous learning",
+      "text": "Keep curiosity part of your professional journey. Explore the knowledge you want to develop as your field evolves.",
+      "icon": "compass"
+    },
+    {
+      "title": "Professional skill development",
+      "text": "Identify strengths to build on and skills that could help you contribute with greater confidence.",
+      "icon": "checklist"
+    },
+    {
+      "title": "Team collaboration",
+      "text": "Consider how listening, constructive discussion and shared problem-solving can support professional development.",
+      "icon": "network"
+    },
+    {
+      "title": "Knowledge sharing",
+      "text": "Bring questions and perspectives into conversations. Sharing what you learn can make ideas easier to explore together.",
+      "icon": "ledger"
+    },
+    {
+      "title": "Career progression",
+      "text": "Reflect on your interests, experience and possible next steps. Any future role or development arrangement would need to be discussed individually.",
+      "icon": "digital"
+    }
+  ]
+}

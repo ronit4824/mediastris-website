@@ -1,0 +1,114 @@
+{
+  "pages": [
+    {
+      "id": "overview",
+      "path": "/about-us",
+      "label": "About Us",
+      "title": "About us",
+      "description": "Explore a draft introduction to Mediastris Healthcare LLP and its proposed approach to healthcare consultancy in India.",
+      "icon": "building"
+    },
+    {
+      "id": "vision",
+      "path": "/about-us/vision",
+      "label": "Vision",
+      "title": "Our Vision",
+      "description": "A proposed vision and mission for thoughtful, coordinated healthcare consultancy in India.",
+      "icon": "compass"
+    },
+    {
+      "id": "management",
+      "path": "/about-us/management",
+      "label": "Management Team",
+      "title": "Our Leadership",
+      "description": "An introduction to the leadership perspective behind Mediastris, with individual profiles to follow after approval.",
+      "icon": "network"
+    },
+    {
+      "id": "ceo",
+      "path": "/about-us/ceo-message",
+      "label": "CEO Speaks",
+      "title": "Message from Our Leadership",
+      "description": "A draft leadership perspective on the priorities that shape healthcare consultancy, prepared for review by Mediastris.",
+      "icon": "ledger"
+    }
+  ],
+  "company": {
+    "introduction": [
+      "Mediastris Healthcare LLP is presented here as a healthcare consultancy for hospitals and healthcare organizations in India. This proposed introduction brings together the service areas featured on this website around a common purpose: helping organizations frame their priorities and plan their next steps with clarity.",
+      "The service areas span statutory and regulatory compliance, insurance and TPA onboarding, hospital infrastructure, healthcare branding, insurance recovery, NABH accreditation guidance, organ transplant approval assistance, and digital marketing. Each engagement begins with a conversation about the organization's context, the support it is seeking and the scope to be agreed."
+    ],
+    "story": [
+      "Healthcare organizations make decisions across many connected areas. A change in infrastructure can affect workflows; an insurance relationship can introduce new coordination needs; and public communications need to reflect the organization's identity and priorities.",
+      "Our proposed approach is to listen first, understand how those priorities relate and develop a clear brief for the work ahead. Careful documentation, defined responsibilities and regular dialogue provide a practical foundation for collaboration. This is a draft description of the intended approach, rather than a claim about past projects or results."
+    ],
+    "storyHeading": "A connected view of healthcare.",
+    "primaryImage": {
+      "src": "/images/services/hospital.webp",
+      "alt": "Illustrative stock photograph of a hospital interior, not Mediastris premises",
+      "position": "center"
+    },
+    "supportingImage": {
+      "src": "/images/collaboration.webp",
+      "alt": "Illustrative stock photograph of a professional workspace, not the Mediastris office",
+      "position": "center"
+    }
+  },
+  "valuesNote": "Sample values for website preview. Final wording is subject to client approval.",
+  "values": [
+    {
+      "id": "integrity",
+      "title": "Integrity",
+      "description": "Act with honesty, communicate openly and bring care to every professional decision."
+    },
+    {
+      "id": "collaboration",
+      "title": "Collaboration",
+      "description": "Listen to different perspectives and work together towards thoughtful, practical solutions."
+    },
+    {
+      "id": "accountability",
+      "title": "Accountability",
+      "description": "Take ownership of responsibilities, follow through on commitments and learn from feedback."
+    },
+    {
+      "id": "continuous-improvement",
+      "title": "Continuous Improvement",
+      "description": "Stay curious, build knowledge and look for better ways to approach everyday challenges."
+    }
+  ],
+  "vision": {
+    "summary": "A clearer direction for healthcare organizations and the decisions ahead.",
+    "paragraphs": ["To contribute to a healthcare landscape in India where organizations can approach growth, operations and change with clearer priorities, considered planning and a shared understanding of the work ahead."],
+    "image": {
+      "src": "/images/services/strategy.webp",
+      "alt": "Illustrative stock photograph of a technology workspace, not Mediastris equipment",
+      "position": "center"
+    }
+  },
+  "mission": { "paragraphs": [
+    "To bring a coordinated perspective to healthcare consultancy by listening to each organization's needs, connecting relevant service discussions and defining practical next steps together.",
+    "To encourage clear communication, thoughtful preparation and ownership of agreed responsibilities across the work, while respecting the role of each organization's clinical, technical and professional advisers."
+  ] },
+  "leadership": {
+    "introduction": ["Healthcare consultancy calls for a connected understanding of organizational priorities, careful communication and clear ownership of decisions. This draft leadership introduction proposes those themes as a starting point for presenting the management team. Individual experience and responsibilities will be described only when profiles are approved."],
+    "members": [],
+    "emptyHeading": "Leadership profiles are being prepared.",
+    "emptyText": "Approved names, roles, biographies and photographs have not yet been supplied for publication. For an organizational enquiry or to discuss a proposed engagement, please contact Mediastris directly."
+  },
+  "ceo": {
+    "heading": "A perspective on the work ahead.",
+    "paragraphs": [
+      "Healthcare organizations balance day-to-day responsibilities with decisions about their future. A useful consultancy conversation starts by understanding that context: what matters now, where coordination is difficult and which questions need further attention.",
+      "The proposed leadership message would focus on listening carefully, agreeing a clear scope and keeping communication open throughout an engagement. Across the service areas presented here, the aim is to create a shared understanding of priorities and responsibilities before work begins.",
+      "This perspective is offered as a draft for leadership review. An approved personal message can later add the leader's own voice, priorities and commitments."
+    ],
+    "name": null,
+    "designation": null,
+    "portrait": null,
+    "note": "Draft leadership perspective prepared for review. This text is not a quotation or an attributed statement from a CEO. A personal message, name and portrait will be published only after approval."
+  },
+  "draftNote": "DRAFT - Proposed website copy for review and approval by Mediastris.",
+  "fallbackText": "Further details will be published after review by Mediastris. Contact us to discuss your organization's priorities.",
+  "valuesFallback": { "title": "Our guiding principles", "description": "The company's approved values will be shared after review." }
+}

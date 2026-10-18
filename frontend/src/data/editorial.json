@@ -1,0 +1,78 @@
+{
+  "caseStudies": [
+    {
+      "slug": "nabh-accreditation-readiness",
+      "title": "Planning an Accreditation Readiness Review",
+      "summary": "Illustrative scenario: bringing document owners, review questions and follow-up actions into a shared readiness plan.",
+      "challenge": "A hypothetical hospital wants a clearer view of the documents and internal processes it needs to review before exploring accreditation. Different departments maintain separate records, making it difficult to see who owns the next action. This is a planning example, not a Mediastris client engagement.",
+      "solution": "A proposed approach would begin with an agreed review boundary, a department-level document inventory and a list of questions for the relevant clinical, quality and administrative leads. Findings could be organized into an action register with named owners and review dates. Applicable standards and any specialist advice would need to be checked for the actual institution.",
+      "outcome": "No results are claimed. In a real engagement, the hospital could assess whether responsibilities are clear, records are current and open questions have an agreed follow-up. Accreditation decisions remain with the relevant assessing body.",
+      "approved": false,
+      "preview": true
+    },
+    {
+      "slug": "hospital-operational-turnaround",
+      "title": "Mapping a Hospital Discharge Workflow",
+      "summary": "Illustrative scenario: understanding how ward, pharmacy, billing and insurance information moves through a discharge process.",
+      "challenge": "A hypothetical hospital wants to understand why administrative discharge steps are difficult for teams and families to follow. Responsibility moves between several departments, and the handover points are not documented consistently. No actual facility or patient experience is described.",
+      "solution": "A proposed review would map the administrative steps with the participating teams, identify the information needed at each handover and agree how exceptions are escalated. Any workflow changes would be reviewed by the hospital's authorized clinical and operational leads before use.",
+      "outcome": "This scenario has no measured outcome. A real review could consider the clarity of handover instructions, the completeness of information and the team's ability to identify unresolved tasks. No reduction in discharge time or clinical benefit is promised.",
+      "approved": false,
+      "preview": true
+    },
+    {
+      "slug": "insurance-tpa-claims-optimization",
+      "title": "Organizing Insurance and TPA Query Follow-up",
+      "summary": "Illustrative scenario: creating a consistent way to record document requests, query owners and follow-up dates.",
+      "challenge": "A hypothetical insurance desk receives document queries through several communication channels. The team wants a common view of what has been requested, who is preparing a response and which items remain unresolved. This does not describe a real Mediastris project.",
+      "solution": "A proposed approach would define a query register, document naming conventions and a review routine with the hospital's authorized billing and insurance teams. Access to records would follow the institution's approved privacy arrangements. Contractual and coverage questions would be referred to the appropriate insurer, TPA or qualified adviser.",
+      "outcome": "No payment, approval or recovery result is claimed. A real engagement could review record completeness and follow-up visibility against agreed criteria. Insurer decisions, deductions and settlement times are outside this illustration.",
+      "approved": false,
+      "preview": true
+    }
+  ],
+  "articles": [
+    {
+      "slug": "navigating-nabh-digital-standards-2026",
+      "title": "Preparing a Useful Healthcare Documentation Review",
+      "summary": "A draft discussion guide for organizing documents, identifying owners and preparing questions before a quality or accreditation conversation.",
+      "author": "Editorial preview — author to be confirmed",
+      "date": "2026-10-18",
+      "draft": true,
+      "paragraphs": [
+        "A documentation review is easier to scope when its purpose is clear. Before collecting files, agree whether the discussion concerns a particular department, an administrative workflow or preparation for an external assessment. This draft suggests organizational questions; it does not interpret NABH standards or establish a compliance checklist.",
+        "Start with a document inventory. Record the document title, responsible owner, current version and the team that uses it. Ask whether the people carrying out the work can locate the relevant material and know whom to contact when information is incomplete. Keep the inventory proportionate to the agreed review.",
+        "A useful working session can separate three questions: what is documented, what needs clarification and who is responsible for the next step. An action register can capture the question, owner and review date without implying that a document alone demonstrates operational or clinical compliance.",
+        "If the review relates to accreditation, the hospital should confirm the applicable programme and current requirements with the appropriate official source and qualified specialists. The final scope should be agreed by authorized hospital leads. No accreditation readiness, approval or clinical outcome is implied by this article."
+      ]
+    },
+    {
+      "slug": "strengthening-clinical-governance-frameworks",
+      "title": "Making Cross-departmental Follow-up Easier to Understand",
+      "summary": "A draft perspective on meeting preparation, clear responsibilities and useful action notes in healthcare administration.",
+      "author": "Editorial preview — author to be confirmed",
+      "date": "2026-10-18",
+      "draft": true,
+      "paragraphs": [
+        "Hospital administration brings together people with different responsibilities and information needs. A short coordination meeting can be more useful when participants know what decision is needed, which documents are relevant and who is authorized to decide. This is an administrative discussion guide, not a clinical governance protocol.",
+        "Prepare an agenda around specific questions rather than broad topics. For each item, identify the information already available and the clarification still needed. Where the discussion involves clinical matters, the relevant authorized professionals must determine the appropriate process and decisions.",
+        "Action notes should make the follow-up understandable to someone who was not in the room. Record the agreed action, responsible team, target review date and any dependency. Avoid circulating patient details or sensitive records in general-purpose meeting notes.",
+        "At the next review, check whether the question has been resolved or requires a different owner. The aim is a practical record of decisions and open work, not more paperwork. Any organization-specific process should be reviewed against its own approved policies before adoption."
+      ]
+    },
+    {
+      "slug": "optimizing-cashless-hospital-tpa-operations",
+      "title": "Preparing for an Insurance Desk Coordination Discussion",
+      "summary": "A draft set of operational questions about document requests, communication channels and query ownership.",
+      "author": "Editorial preview — author to be confirmed",
+      "date": "2026-10-18",
+      "draft": true,
+      "paragraphs": [
+        "An insurance coordination discussion should begin with the actual workflow in use. Ask how requests arrive, where correspondence is recorded and which team is responsible for responding. This draft focuses on organizing a conversation; it does not describe policy coverage or insurer requirements.",
+        "Map the information handovers between the hospital's authorized teams. A simple register can distinguish a request awaiting documents from a question awaiting clarification. The register should avoid unnecessary personal information and follow the institution's approved access and retention arrangements.",
+        "Agree how outstanding questions will be escalated and how the team will know that an item has been resolved. When a request depends on a contract, policy term or payer decision, refer it to the appropriate authorized party rather than assuming that a standard response applies.",
+        "Any changes to a live insurance desk process need the hospital's approval. Clear documentation cannot guarantee cashless authorization, reimbursement or a particular settlement time. Those matters depend on the relevant agreements and decisions outside the scope of this draft."
+      ]
+    }
+  ]
+}

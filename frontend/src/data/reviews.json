@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sample-01",
+    "name": "Sample Reviewer 01",
+    "rating": 5,
+    "text": "An illustrative review showing how a future client’s feedback will appear. This is sample copy for the website preview, not an account of a real experience.",
+    "date": "2026-01-12",
+    "demo": true,
+    "avatarUrl": "",
+    "authorUrl": "",
+    "reviewUrl": ""
+  },
+  {
+    "id": "sample-02",
+    "name": "Sample Reviewer 02",
+    "rating": 4,
+    "text": "A space for a future reviewer’s perspective on working with the team. The name, rating, date and wording shown here are entirely illustrative.",
+    "date": "2026-01-18",
+    "demo": true,
+    "avatarUrl": "",
+    "authorUrl": "",
+    "reviewUrl": ""
+  },
+  {
+    "id": "sample-03",
+    "name": "Sample Reviewer 03",
+    "rating": 5,
+    "text": "This demonstration card previews the layout for detailed feedback, with room for a reviewer’s own words. No customer endorsement is represented by this sample.",
+    "date": "2026-02-03",
+    "demo": true,
+    "avatarUrl": "",
+    "authorUrl": "",
+    "reviewUrl": ""
+  },
+  {
+    "id": "sample-04",
+    "name": "Sample Reviewer 04",
+    "rating": 4,
+    "text": "Future published reviews will replace this placeholder once a verified Google Business Profile and the required integration are available. For design preview only.",
+    "date": "2026-02-09",
+    "demo": true,
+    "avatarUrl": "",
+    "authorUrl": "",
+    "reviewUrl": ""
+  }
+]

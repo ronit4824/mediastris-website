@@ -1,0 +1,17 @@
+package com.mediastris.contact;
+import static org.assertj.core.api.Assertions.*;
+import static org.mockito.Mockito.*;
+import java.time.*;
+import java.util.*;
+import java.util.concurrent.*;
+import org.junit.jupiter.api.Test;
+import org.springframework.http.HttpStatus;
+class ContactServiceTest {
+    private final ContactRequest request=new ContactRequest("Test Person","person@example.test","+91 98765 43210","Test Organization","General enquiry","A test message for the organization.");
+    @Test void successAndReplaySendOnce(){var email=mock(EmailService.class);var sms=mock(SmsService.class);when(sms.notifyEnquiry(anyString())).thenReturn(SmsService.Status.accepted);var service=new ContactService(email,sms);String key=UUID.randomUUID().toString();var result=service.submit(request,key);assertThat(result.email()).isEqualTo("accepted");assertThat(result.sms()).isEqualTo(SmsService.Status.accepted);assertThat(service.submit(request,key)).isEqualTo(result);verify(email,times(1)).send(eq(request),eq(key),any());verify(sms,times(1)).notifyEnquiry(key);}
+    @Test void emailFailureIsNotSuccessAndAllowsRetry(){var email=mock(EmailService.class);var sms=mock(SmsService.class);doThrow(new ApiException(HttpStatus.SERVICE_UNAVAILABLE,"EMAIL_FAILED","Unavailable")).doNothing().when(email).send(any(),anyString(),any());var service=new ContactService(email,sms);String key=UUID.randomUUID().toString();assertThatThrownBy(()->service.submit(request,key)).isInstanceOf(ApiException.class);verifyNoInteractions(sms);assertThat(service.submit(request,key).email()).isEqualTo("accepted");}
+    @Test void smsFailureDoesNotLoseAcceptedEmail(){var email=mock(EmailService.class);var sms=mock(SmsService.class);when(sms.notifyEnquiry(anyString())).thenThrow(new RuntimeException("simulated"));var service=new ContactService(email,sms);assertThat(service.submit(request,UUID.randomUUID().toString()).sms()).isEqualTo(SmsService.Status.failed);}
+    @Test void changedPayloadCannotReuseKey(){var service=new ContactService(mock(EmailService.class),key->SmsService.Status.disabled);String key=UUID.randomUUID().toString();service.submit(request,key);var changed=new ContactRequest("Other Person",request.email(),request.phone(),request.company(),request.service(),request.message());assertThatThrownBy(()->service.submit(changed,key)).isInstanceOf(ApiException.class).hasMessageContaining("different enquiry");}
+    @Test void concurrentDuplicateDoesNotSendTwice() throws Exception {var started=new CountDownLatch(1);var release=new CountDownLatch(1);EmailService email=(r,k,t)->{started.countDown();try{release.await(3,TimeUnit.SECONDS);}catch(InterruptedException e){Thread.currentThread().interrupt();}};var service=new ContactService(email,k->SmsService.Status.disabled);String key=UUID.randomUUID().toString();try(var executor=Executors.newVirtualThreadPerTaskExecutor()){var first=executor.submit(()->service.submit(request,key));assertThat(started.await(2,TimeUnit.SECONDS)).isTrue();assertThatThrownBy(()->service.submit(request,key)).isInstanceOf(ApiException.class).hasMessageContaining("still being processed");release.countDown();assertThat(first.get(3,TimeUnit.SECONDS).email()).isEqualTo("accepted");}}
+    @Test void disabledAndUnconfiguredSmsDoNotAttemptDelivery(){assertThat(new TwilioSmsService(false,"","","","").notifyEnquiry("test")).isEqualTo(SmsService.Status.disabled);assertThat(new TwilioSmsService(true,"","","","").notifyEnquiry("test")).isEqualTo(SmsService.Status.unconfigured);}
+}
